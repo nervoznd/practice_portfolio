@@ -79,3 +79,22 @@ select {
   }
 }
 
+/* ====== Header ====== */
+
+.header {
+  
+}
+
+  .icon_container {
+    position: fixed;
+    top: 36px;
+    right: 36px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+    .header_icon {
+      width: 37px;
+      height: 37px;
+    }
