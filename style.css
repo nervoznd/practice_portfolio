@@ -79,22 +79,45 @@ select {
   }
 }
 
-/* ====== Header ====== */
+/* ====== Body ====== */
 
-.header {
-  
+body {
+  background: url(/img/Trunks.png), url(/img/BG.png);
+  background-repeat: no-repeat;
+  background-position: center, top;
 }
 
-  .icon_container {
-    position: fixed;
-    top: 36px;
-    right: 36px;
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
+/* ====== Top icons ====== */
+
+.icon_container {
+  position: fixed;
+  top: 36px;
+  right: 36px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+   .header_icon {
+    width: 37px;
+    height: 37px;
   }
 
-    .header_icon {
-      width: 37px;
-      height: 37px;
-    }
+  /* ===== Menu trunk ====== */
+
+.menu_trunk {
+  width: 492px;
+  height: 820px;
+  margin: auto;
+  background: url(/img/Trunk.png);
+  background-repeat: no-repeat;
+  background-position: center, top;
+}
+
+.name_card {
+  position: absolute;
+}
+
+.team_button {
+  text-align: center;
+}
