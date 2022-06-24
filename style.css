@@ -82,11 +82,10 @@ select {
 /* ====== Body ====== */
 
 body {
-  background: url(/img/Trunks.png), url(/img/BG.png);
+  background: url(/img/BG.png), #01222C;
   background-repeat: no-repeat;
   background-position: center, top;
 }
-
 /* ====== Top icons ====== */
 
 .icon_container {
@@ -116,8 +115,15 @@ body {
 
 .name_card {
   position: absolute;
+  top: 79px;
 }
 
 .team_button {
   text-align: center;
+  padding-top: 675px;
+  font-family: 'Teko';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 33px;
 }
