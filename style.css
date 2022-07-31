@@ -82,7 +82,7 @@ select {
 /* ====== Body ====== */
 
 body {
-  background: url(/img/BG.png), #01222C;
+  background: url(./img/BG.png), #01222C;
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -133,7 +133,7 @@ body {
 .menu_trunk {
   width: 492px;
   height: 820px;
-  background: url(/img/Trunk.png);
+  background: url(./img/Trunk.png);
   background-repeat: no-repeat;
   background-position: center, top;
   margin: 0 10px 0 10px;
